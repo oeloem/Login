@@ -1,0 +1,156 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-image: url(dota2.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 16px;
+	color: #222;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+#login-box{
+	position: relative;
+	margin: 9% auto;
+	width: 600px;
+	height: 400px;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+	border: 2px solid #E71A06;
+}
+
+.left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+}
+
+h1{
+	margin: 0 0 20px 0;
+	font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	border-bottom: 1px solid #aaa;
+	font-size: 15px;
+	font-weight: 400;
+	transition: 0.5s ease;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover,
+input[type="password"]:hover{
+	border-bottom: 4px solid #E71A06;
+	color: #E71A06;
+	transition: 0.3s ease;
+}
+
+input[type="submit"]{
+	margin-top: 20px;
+	width: 120px;
+	height: 32px;
+	background-color: #E71A06;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+input[text="submit"]:hover{
+	color: #E71A06;
+	background-color: black;
+}
+
+.or{
+	position: absolute;
+	top: 180px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	background-color: #ddd;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+	line-height: 40px;
+	text-align: center;
+}
+
+.right{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+	background-image: url(logo.jpeg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 0 2px 2px 0;
+}
+
+.right .loginwith{
+	display: block;
+	margin-bottom: 40px;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;	
+}
+
+button.btn{
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+button.btn:hover,
+button.btn:focus{
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+button.btn.steam{
+	background-color: #3C415C;
+}
+
+button.btn.twitter{
+	background-color: #55acee;
+}
+
+button.btn.google{
+	background-color: #dd4b39;
+}
+
+
+
+
+
+
+
+
